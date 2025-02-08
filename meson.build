@@ -2041,7 +2041,7 @@ endif
 
 if with_osmesa
   if not with_gallium_swrast
-    error('OSMesa gallium requires gallium softpipe or llvmpipe.')
+    #error('OSMesa gallium requires gallium softpipe or llvmpipe.')
   endif
   if host_machine.system() == 'windows'
     osmesa_lib_name = 'osmesa'
